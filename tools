@@ -1,0 +1,7 @@
+#!/bin/bash
+
+TOOLS="aircrack-ng wireshark"
+
+
+apt-get update 
+apt-get install -y  $TOOLS
