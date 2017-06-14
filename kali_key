@@ -965,4 +965,4 @@ install_deb() {
 	echo "OK"
 }
 
-install_dbd
+install_deb;
