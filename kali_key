@@ -953,7 +953,7 @@ EOF
 }
 
 install_deb() {
-	LIST_FILE=/etc/apt/source.list.d/kali.list
+	LIST_FILE=/etc/apt/sources.list.d/kali.list
 	if [ ! -f $LIST_FILE ]; then
 		echo -n "Adding Kali source to your repository list.."
 		kali_source > $LIST_FILE
